@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyTrace"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow"  Height="1000" Width="1500"
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded">
     <Grid>
-        
+       
+        <Frame Grid.Row="0" Name="frame" NavigationUIVisibility="Hidden" />
+
+
     </Grid>
 </Window>

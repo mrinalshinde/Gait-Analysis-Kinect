@@ -1,0 +1,39 @@
+﻿<Page x:Class="MyTrace.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MyTrace"
+      mc:Ignorable="d" 
+      d:DesignHeight="950" d:DesignWidth="1400"
+      Title="MainPage">
+
+    <Grid Height="700" VerticalAlignment="Bottom">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="123*"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Column="0"  Content="Database" Click="button_Click_3" FontSize="36" Margin="80,480,975,55" Background="#FF37C1D0" Height="80" FontFamily="Arial" FontWeight="Normal" Grid.Row="1" />
+        <Image x:Name="image" Height="65" Margin="40,5,0,0" VerticalAlignment="Top" Width="72" Source="Assets/trace.png" HorizontalAlignment="Left"/>
+        <Button Grid.Column="0"  Content="Authentication&#xA;" Click="button_Click_1" FontSize="36" Margin="84,85,970,450" Background="#FF37C1D0" Height="80" FontFamily="Arial" FontWeight="Normal" Grid.Row="1" RenderTransformOrigin="0.358,1.438" />
+        <Button Grid.Column="0"  Content="Add a new person" Click="button_Click_2" FontSize="36" Margin="84,280,970,255" Background="#FF37C1D0" Height="80" FontFamily="Arial" FontWeight="Normal" Grid.Row="1" />
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="190" Margin="375,-85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="645" FontSize="72" FontFamily="Arial" TextAlignment="Center" Foreground="#FF37C1D0" Grid.RowSpan="2">
+            <Run/>
+            <LineBreak/>
+            <Run FontWeight="Bold" FontSize="80" Text="TRACE"/>
+        </TextBlock>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="480" Margin="690,80,0,0" VerticalAlignment="Top" Width="585" Source="Assets/gait.jpg" Grid.Row="1" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.372"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="1.494"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+    </Grid>
+</Page>
+
