@@ -10,23 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace MyTrace
 {
     /// <summary>
-    /// Interaction logic for AddAnewPerson.xaml
+    /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class AddAnewPerson : Page
+    public partial class Window1 : Window
     {
-        public AddAnewPerson()
+        public Window1()
         {
             InitializeComponent();
-        }
-        private void Back_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new MainPage());
         }
     }
 }

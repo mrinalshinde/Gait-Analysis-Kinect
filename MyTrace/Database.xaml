@@ -13,10 +13,10 @@
             <RowDefinition Height="17*"/>
             <RowDefinition Height="123*"/>
         </Grid.RowDefinitions>
+
         <Button x:Name="backButton" Click="Back_Click"
                     Style="{StaticResource NavigationBackButtonNormalStyle}"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center" Margin="10,5,1316,1" RenderTransformOrigin="3.824,2.476" Height="79" Width="74"/>
+                    HorizontalAlignment="Center" Margin="10,5,1316,1" RenderTransformOrigin="3.824,2.476" Width="74"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="80" Margin="545,5,0,0" TextWrapping="Wrap" Text="Database" VerticalAlignment="Top" Width="340" FontSize="72" FontFamily="Arial" Foreground="#FF37C1D0"/>
 
     </Grid>

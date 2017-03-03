@@ -33,7 +33,8 @@ namespace MyTrace
 
         private void button_Click_2(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new AddANewPerson());
+            // MyTrace.Assets.Form1 sec = new MyTrace.Assets.Form1();
+            NavigationService.Navigate(new Random());
         }
 
         private void button_Click_3(object sender, RoutedEventArgs e)

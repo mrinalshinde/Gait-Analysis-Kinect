@@ -1,4 +1,4 @@
-﻿<Page x:Class="MyTrace.AddAnewPerson"
+﻿<Page x:Class="MyTrace.AddANewPerson"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -13,13 +13,11 @@
             <RowDefinition Height="17*"/>
             <RowDefinition Height="123*"/>
         </Grid.RowDefinitions>
-        <Button x:Name="backButton" Click="Back_Click"
+        <!--<Button x:Name="backButton" Click="Back_Click"
                     Style="{StaticResource NavigationBackButtonNormalStyle}"
                     HorizontalAlignment="Center"
-                    VerticalAlignment="Center" Margin="5,15,1321,606" RenderTransformOrigin="3.824,2.476" Height="79" Width="74" Grid.RowSpan="2"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="80" Margin="375,10,0,0" TextWrapping="Wrap" Text="Add new person" VerticalAlignment="Top" Width="810" FontSize="72" FontFamily="Arial" Foreground="#FF37C1D0" Grid.RowSpan="2"/>
+                    VerticalAlignment="Center" Margin="10,5,1316,1" RenderTransformOrigin="3.824,2.476" Height="79" Width="74"/>-->
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="80" Margin="340,0,0,0" TextWrapping="Wrap" Text="Add A New Person" VerticalAlignment="Top" Width="765" Foreground="#FF37C1D0" FontFamily="Arial" FontSize="72" TextAlignment="Center"/>
 
     </Grid>
 </Page>
-
-

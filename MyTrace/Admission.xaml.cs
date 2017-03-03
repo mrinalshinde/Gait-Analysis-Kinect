@@ -16,14 +16,15 @@ using System.Windows.Shapes;
 namespace MyTrace
 {
     /// <summary>
-    /// Interaction logic for AddAnewPerson.xaml
+    /// Interaction logic for AddANewPerson.xaml
     /// </summary>
-    public partial class AddAnewPerson : Page
+    public partial class Admission : Page
     {
-        public AddAnewPerson()
+        public Admission()
         {
-            InitializeComponent();
+            
         }
+
         private void Back_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new MainPage());

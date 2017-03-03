@@ -17,7 +17,7 @@
         <Button Grid.Column="0"  Content="Database" Click="button_Click_3" FontSize="36" Margin="80,480,975,55" Background="#FF37C1D0" Height="80" FontFamily="Arial" FontWeight="Normal" Grid.Row="1" />
         <Image x:Name="image" Height="65" Margin="40,5,0,0" VerticalAlignment="Top" Width="72" Source="Assets/trace.png" HorizontalAlignment="Left"/>
         <Button Grid.Column="0"  Content="Authentication&#xA;" Click="button_Click_1" FontSize="36" Margin="84,85,970,450" Background="#FF37C1D0" Height="80" FontFamily="Arial" FontWeight="Normal" Grid.Row="1" RenderTransformOrigin="0.358,1.438" />
-        <Button Grid.Column="0"  Content="Add a new person" Click="button_Click_2" FontSize="36" Margin="84,280,970,255" Background="#FF37C1D0" Height="80" FontFamily="Arial" FontWeight="Normal" Grid.Row="1" />
+        <Button Grid.Column="0"  Content="New Admission" Click="button_Click_2" FontSize="36" Margin="84,280,970,255" Background="#FF37C1D0" Height="80" FontFamily="Arial" FontWeight="Normal" Grid.Row="1" />
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="190" Margin="375,-85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="645" FontSize="72" FontFamily="Arial" TextAlignment="Center" Foreground="#FF37C1D0" Grid.RowSpan="2">
             <Run/>
             <LineBreak/>

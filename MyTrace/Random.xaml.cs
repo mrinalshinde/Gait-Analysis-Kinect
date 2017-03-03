@@ -16,17 +16,22 @@ using System.Windows.Shapes;
 namespace MyTrace
 {
     /// <summary>
-    /// Interaction logic for AddAnewPerson.xaml
+    /// Interaction logic for Random.xaml
     /// </summary>
-    public partial class AddAnewPerson : Page
+    public partial class Random : Page
     {
-        public AddAnewPerson()
+        public Random()
         {
             InitializeComponent();
         }
-        private void Back_Click(object sender, RoutedEventArgs e)
+
+        private void button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new MainPage());
+            string textbox = textBox.Text;
+            string textbox_2 = textBox_Copy.Text;
+            string textbox_3 = textBox_Copy1.Text;
+
+            NavigationService.Navigate(new AddAnewPerson());
         }
     }
 }
