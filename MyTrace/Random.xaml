@@ -13,14 +13,19 @@
             <RowDefinition Height="17*"/>
             <RowDefinition Height="123*"/>
         </Grid.RowDefinitions>
-        <Label x:Name="label" Content="New Registration" HorizontalAlignment="Left" Height="75" Margin="320,10,0,0" VerticalAlignment="Top" Width="815" Foreground="#FF37C1D0" FontSize="48"/>
-        <Label x:Name="label_Copy" Content="Sex" HorizontalAlignment="Left" Height="75" Margin="125,330,0,0" VerticalAlignment="Top" Width="210" Foreground="#FF37C1D0" FontSize="48" Grid.Row="1"/>
-        <Label x:Name="label_Copy1" Content="Age" HorizontalAlignment="Left" Height="75" Margin="60,240,0,0" VerticalAlignment="Top" Width="235" Foreground="#FF37C1D0" FontSize="48" Grid.Row="1"/>
-        <Label x:Name="label_Copy2" Content="Name" HorizontalAlignment="Left" Height="75" Margin="90,90,0,0" VerticalAlignment="Top" Width="240" Foreground="#FF37C1D0" FontSize="48" Grid.Row="1"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="50" Margin="330,135,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="460" Text="s"/>
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="50" Margin="325,410,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="460"/>
-        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="50" Margin="340,265,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="460"/>
-        <Button x:Name="button" Content="Submit" HorizontalAlignment="Left" Height="35" Margin="160,510,0,0" Grid.Row="1" VerticalAlignment="Top" Width="195" FontSize="20" Click="button_Click"/>
+        <Button x:Name="backButton" Click="Back_Click"
+                    Style="{StaticResource NavigationBackButtonNormalStyle}"
+                    HorizontalAlignment="Center" Margin="10,5,1316,0" RenderTransformOrigin="3.824,2.476" Width="74" Height="79" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="New Registration" HorizontalAlignment="Left" Height="95" Margin="425,-10,0,0" VerticalAlignment="Top" Width="570" Foreground="#FF37C1D0" FontSize="72" FontFamily="Arial"/>
+        <Label x:Name="label_Copy" Content="Sex" HorizontalAlignment="Left" Height="75" Margin="80,280,0,0" VerticalAlignment="Top" Width="210" Foreground="#FF37C1D0" FontSize="48" Grid.Row="1"/>
+        <Label x:Name="label_Copy1" Content="Age" HorizontalAlignment="Left" Height="75" Margin="80,180,0,0" VerticalAlignment="Top" Width="235" Foreground="#FF37C1D0" FontSize="48" Grid.Row="1"/>
+        <Label x:Name="label_Copy2" Content="Name" HorizontalAlignment="Left" Height="75" Margin="80,80,0,0" VerticalAlignment="Top" Width="240" Foreground="#FF37C1D0" FontSize="48" Grid.Row="1"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="50" Margin="325,105,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="460" Text="s"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="50" Margin="320,300,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="460"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="50" Margin="325,205,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="460"/>
+        <Button x:Name="button" Content="Submit" HorizontalAlignment="Left" Height="55" Margin="85,520,0,0" Grid.Row="1" VerticalAlignment="Top" Width="195" FontSize="36" Click="button_Click" Background="#FF37C1D0" BorderBrush="White"/>
+        <Label x:Name="label_Copy3" Content="Email ID" HorizontalAlignment="Left" Height="75" Margin="80,390,0,0" VerticalAlignment="Top" Width="210" Foreground="#FF37C1D0" FontSize="48" Grid.Row="1" RenderTransformOrigin="0.095,0.733"/>
+        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="50" Margin="325,400,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="460"/>
 
 
 

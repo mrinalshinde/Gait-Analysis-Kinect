@@ -15,10 +15,9 @@
         </Grid.RowDefinitions>
         <Button x:Name="backButton" Click="Back_Click"
                     Style="{StaticResource NavigationBackButtonNormalStyle}"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center" Margin="10,5,1316,1" RenderTransformOrigin="3.824,2.476" Height="79" Width="74"/>
+                    HorizontalAlignment="Center" Margin="10,5,1316,1" RenderTransformOrigin="3.824,2.476" Width="74"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="85" Margin="425,0,0,0" TextWrapping="Wrap" Text="Authentication" VerticalAlignment="Top" Width="580" Foreground="#FF37C1D0" TextAlignment="Center" FontFamily="Arial" FontSize="72"/>
-        <Button Grid.Column="0"  Content="Start&#xD;&#xA;" FontSize="48" Margin="1045,240,119,295" Background="#FF37C1D0" Height="80" FontFamily="Arial" FontWeight="Normal" Grid.Row="1" BorderBrush="White" Foreground="Black" />
-        <Button Grid.Column="0"  Content="Stop"  FontSize="48" Margin="1044,400,120,135" Background="#FF37C1D0" Height="80" FontFamily="Arial" FontWeight="Normal" Grid.Row="1" BorderBrush="White" Foreground="Black" />
+        <Button Grid.Column="0"  Content="Start&#xD;&#xA;" FontSize="48" Margin="1045,240,119,295" Background="#FF37C1D0" Height="80" FontFamily="Arial" FontWeight="Normal" Grid.Row="1" BorderBrush="White" Foreground="Black" Click="Button_Click_2" />
+        <Button Grid.Column="0"  Content="Stop"  FontSize="48" Margin="1044,400,120,135" Background="#FF37C1D0" Height="80" FontFamily="Arial" FontWeight="Normal" Grid.Row="1" BorderBrush="White" Foreground="Black" Click="Button_Click_3" />
     </Grid>
 </Page>

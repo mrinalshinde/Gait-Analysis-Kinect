@@ -29,5 +29,29 @@ namespace MyTrace
         {
             NavigationService.Navigate(new MainPage());
         }
+
+      
+        public void start()
+        {
+            int value = 1;
+            Console.WriteLine(value);
+        }
+        public void stop()
+        {
+            int value = 0;
+            Console.WriteLine(value);
+        }
+
+       
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            start();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            stop();
+        }
     }
 }

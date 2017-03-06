@@ -33,5 +33,10 @@ namespace MyTrace
 
             NavigationService.Navigate(new AddAnewPerson());
         }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new MainPage());
+        }
     }
 }
